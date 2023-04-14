@@ -1,8 +1,10 @@
 @import url(/aluraBooks/styles/header.css);
+@import url(/aluraBooks/styles/banner.css);
 
 :root {
     --cor-de-fundo: #EBECEE;
     --cor-de-fundo-header: #ffffff;
+    --cor-texto-banner: #ffffff;
     --cor-titulo-menu: #EB9B00;
     --cor-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal: "Poppins";
