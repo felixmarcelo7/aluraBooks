@@ -1,5 +1,6 @@
 @import url(/aluraBooks/styles/header.css);
 @import url(/aluraBooks/styles/banner.css);
+@import url(/aluraBooks/styles/carrossel.css);
 
 :root {
     --cor-de-fundo: #EBECEE;
