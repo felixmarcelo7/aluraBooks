@@ -8,6 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
         <link rel="stylesheet" href="style.css">
         <title>AluraBooks</title>
@@ -37,10 +38,39 @@
                         <a class="lista-menu__link"href="#">Design & UX</a>
                     </li>
                 </ul>
-                <img src="/aluraBooks/img/Polygon 1 (Stroke).svg" alt="logo AluraBooks">
+                <img src="/aluraBooks/img/Polygon 1 (Stroke).svg" alt="logo AluraBooks" class="container__logo">
+                <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1>
             </div>
-            <div class="container">
-                <a href="#"><img src="/aluraBooks/img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem"></a>
+
+            <ul class="opcoes">
+                <input type="checkbox" id="opcoes__menu" class="opcoes__botao">
+                <label for="opcoes__menu">
+                    <li class="opcoes__item">Categoria</li>
+                </label>
+
+                <ul class="lista-menu">
+                    <li class="lista-menu__item">
+                        <a class="lista-menu__link"href="#">Programação</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a class="lista-menu__link"href="#">Front-End</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a class="lista-menu__link"href="#">Infraentrutura</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a class="lista-menu__link"href="#">Business</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a class="lista-menu__link"href="#">Design & UX</a>
+                    </li>
+                </ul>
+
+                <li class="opcoes__item"><a href="#" class="opcoes__link">Favorito</a></li>
+                <li class="opcoes__item"><a href="#" class="opcoes__link">Minha Estante</a></li>
+            </ul>
+            <div class="container container__fav-user">
+                <a href="#"><img src="/aluraBooks/img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem container__imagem--coracao"></a>
                 <a href="#"><img src="/aluraBooks/img/Compras.svg" alt="Minhas Compras" class="container__imagem"></a>
                 <a href="#"><img src="/aluraBooks/img/Usuario.svg" alt="Usuario" class="container__imagem"></a>
             </div>
