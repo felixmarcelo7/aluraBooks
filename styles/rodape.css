@@ -47,3 +47,10 @@ hr {
         color: var(--cor-fonte-rodape-itens);
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .lista-rodape {
+        border-left: 1px solid var(--cor-fonte-rodape-titulo);
+        padding-left: 1em;
+    }
+}
